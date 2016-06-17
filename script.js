@@ -23,25 +23,6 @@ module.exports = new Script({
 
             let upperText = message.text.trim().toUpperCase();
 
-            // function updateSilent() {
-            //     switch (upperText) {
-            //         case "CONNECT ME":
-            //             return bot.setProp("silent", true);
-            //         case "DISCONNECT":
-            //             return bot.setProp("silent", false);
-            //         default:
-            //             return Promise.resolve();
-            //     }
-            // }
-
-            // function getSilent() {
-            //     return bot.getProp("silent");
-            // }
-
-            // function processMessage(isSilent) {
-            //     if (isSilent) {
-            //         return Promise.resolve("speak");
-            //     }
 
                 if (!_.has(scriptRules, upperText)) {
                     return bot.say(`I didn't understand that.`).then(() => 'speak');
@@ -60,12 +41,7 @@ module.exports = new Script({
                 })
 
                 return p.then(() => 'speak');
-        //     }
-
-        //     return updateSilent()
-        //         .then(getSilent)
-        //         .then(processMessage);
-        // }
+            }
     }
 
 /*
