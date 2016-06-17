@@ -19,6 +19,7 @@ module.exports = new Script({
 
     
     speak: {
+        prompt: (bot) => bot.say('Talk to me'),
         receive: (bot, message) => {
 
             let upperText = message.text.trim().toUpperCase();
