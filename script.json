@@ -3,7 +3,7 @@
     "LEARN ABOUT CHEEZY" : "His restaurant is one of the top 50 in the world...and climbing. He serves a variant of molecular gastronomy that can only be performed deep in the Southern hemisphere. %[Education](postback:education) %[Career](postback:career) %[Music](postback:music) %[Movies](postback:movies) %[One random fact!](postback:random_fact)",
     "ONE RANDOM FACT" : "Sugar causes cancer. %[Education](postback:education) %[Career](postback:career) %[Music](postback:music) %[Movies](postback:movies)",
     "EDUCATION" : "He studied under Komas Teller, one of the great Danish chefs who grew up in the Rhineland-forager movement. The rest was self-taught based on Stack Overflow. %[Music](postback:music) %[Movies](postback:movies) %[One random fact!](postback:random_fact)",
-    "CAREER" : "He's 17 years old, and all 17 have been spent winning. He's going to win so much that he's going to make cooking great again. He's going to win for YOU %[Education](postback:education) %[Music](postback:music) %[Movies](postback:movies) %[One random fact!](postback:random_fact)"
+    "CAREER" : "He's 17 years old, and all 17 have been spent winning. He's going to win so much that he's going to make cooking great again. He's going to win for YOU %[Education](postback:education) %[Music](postback:music) %[Movies](postback:movies) %[One random fact!](postback:random_fact)",
     "MUSIC" : "John Cage's '4:33' is the only record he has or will listen to. %[Education](postback:education) %[Career](postback:career) %[Movies](postback:movies) %[One random fact!](postback:random_fact)",
     "MOVIES" : "'M for Murder' by Hitchcock %[Education](postback:education) %[Career](postback:career) %[Music](postback:music) %[One random fact!](postback:random_fact)",
 }
