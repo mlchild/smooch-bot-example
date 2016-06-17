@@ -12,21 +12,21 @@ module.exports = new Script({
     
      start: {
         receive: (bot) => {
-            return bot.say('Hi! I\'m Chef Child\'s Bot...Say BOT!')
+            return bot.say('Hi! I\'m Chef Child\'s Bot...Say BOT to get started!')
                 .then(() => 'speak');
         }
     },
 
     
     speak: {
-        prompt: (bot) => bot.say('Talk to me'),
+        // prompt: (bot) => bot.say('Talk to me'),
         receive: (bot, message) => {
 
             let upperText = message.text.trim().toUpperCase();
 
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I didn't understand that.`).then(() => 'speak');
+                    return bot.say(`I didn't understand that. Say BOT to me!`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
