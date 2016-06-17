@@ -22,6 +22,7 @@ module.exports = new Script({
         // prompt: (bot) => bot.say('Talk to me'),
         receive: (bot, message) => {
 
+        console.log('received message:', message);
             let upperText = message.text.trim().toUpperCase();
 
             bot.setProp("silent", false);
