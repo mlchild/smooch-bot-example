@@ -132,6 +132,7 @@ function handlePostback(req, res) {
 
 app.post('/webhook', function(req, res, next) {
     const trigger = req.body.trigger;
+    console.log('webhook trigger:', trigger);
 
     switch (trigger) {
         case 'message:appUser':
