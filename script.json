@@ -1,5 +1,5 @@
 {
-    "BOT": "Hi there!\nI’m the personal bot of M-CHEEZY, an up-and-coming chef from Buenos Aires.\nWant to know more about MAX (of course you do)? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about CHEEZY](postback:learn_about_max) %[One random fact!](postback:random_fact)",
-    "LEARN ABOUT CHEEZY" : "His restaurant is one of the top 50 in the world...and climbing"
+    "BOT": "Hi there!\nI’m the personal bot of M-CHEEZY, an up-and-coming chef from Buenos Aires.\nWant to know more about MAX (of course you do)? %[Learn about CHEEZY](postback:learn_about_max) %[One random fact!](postback:random_fact)",
+    "LEARN ABOUT CHEEZY" : "His restaurant is one of the top 50 in the world...and climbing. He serves a variant of molecular gastronomy that can only be performed deep in the Southern hemisphere.",
     
 }
