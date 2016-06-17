@@ -99,6 +99,7 @@ function handleMessages(req, res) {
     });
 
     console.log('receiving message', messages[0]);
+    console.log('to state machine', stateMachine);
     stateMachine.receiveMessage(messages[0])
         .then(() => res.end())
         .catch((err) => {
