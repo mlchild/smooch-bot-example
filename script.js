@@ -24,6 +24,7 @@ module.exports = new Script({
 
             let upperText = message.text.trim().toUpperCase();
 
+            bot.setProp("silent", false);
 
                 if (!_.has(scriptRules, upperText)) {
                     return bot.say(`I didn't understand that. Say BOT to me!`).then(() => 'speak');
