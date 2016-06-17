@@ -81,6 +81,7 @@ function createBot(appUser) {
 }
 
 function handleMessages(req, res) {
+    console.log('handling messages:', req);
     const messages = req.body.messages.reduce((prev, current) => {
         if (current.role === 'appUser') {
             prev.push(current);
@@ -97,6 +98,7 @@ function handleMessages(req, res) {
         bot: createBot(req.body.appUser)
     });
 
+    console.log('receiving message', messages[0]);
     stateMachine.receiveMessage(messages[0])
         .then(() => res.end())
         .catch((err) => {
