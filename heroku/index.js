@@ -81,7 +81,7 @@ function createBot(appUser) {
 }
 
 function handleMessages(req, res) {
-    console.log('handling messages:', req);
+    console.log('handling messages:', req.body.messages);
     const messages = req.body.messages.reduce((prev, current) => {
         if (current.role === 'appUser') {
             prev.push(current);
